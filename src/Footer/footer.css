@@ -1,0 +1,117 @@
+.footer{
+    width: 100%;
+    height: 640px;
+    background-color: rgb(43, 68, 71);
+    margin-top: 0;
+    position: relative;
+}
+.texttop-left{
+    width: 600px;
+    height: 112px;
+    position: absolute;
+    top: 90px;
+    left: 140px;
+}
+.texttop-left h3 ,span{
+    color: #eee;
+    font-family: Montserrat, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 2;
+    word-wrap: break-word;
+}
+.textbottom-left {
+    width: 600px;
+    height: 112px;
+    position: absolute;
+    top: 250px;
+    left: 140px;
+}
+.textbottom-left p{
+    color: #eee;
+    font-family: Montserrat, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 2;
+    word-wrap: break-word;
+
+}
+.icon{
+    width: 600px;
+    height: 112px;
+    position: absolute;
+    top: 450px;
+    left: 140px;
+}
+
+ .icon i{
+    font-size: 3.75em;
+    color: #eee;
+    margin-left: 10px; 
+    cursor: pointer;
+}
+i:hover{
+    transform: scale(1.1,1.1);
+    color: #3ebbc0;
+}
+.navbar{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(87, 111, 114);  
+   position:absolute;
+   bottom: 0;
+}
+.navbar p{
+    color: #eee;
+    font-size: 0.85rem;
+    font-family: Montserrat, sans-serif;
+    word-wrap: break-word;
+    margin-top: 20px;
+    margin-left: 172px;
+}
+.right-top-menu-one{
+    width: 234px;
+    height: 128px;
+    position: absolute;
+    top: 110px;
+    right: 364px;
+}
+.right-top-menu-one p ,.right-top-menu-two p{
+    color: #eee;
+    font-family: Montserrat, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 2;
+    word-wrap: break-word;
+    cursor: pointer;
+}
+.right-top-menu-two{
+    width: 234px;
+    height: 128px;
+    position: absolute;
+    top: 110px;
+    right: 164px;
+}
+.right-bottom-menu-one{
+    width: 234px;
+    height: 128px;
+    position: absolute;
+    top: 300px;
+    right: 364px;
+}
+.right-bottom-menu-one p, .right-bottom-menu-two p{
+    color: #eee;
+    font-family: Montserrat, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 2;
+    word-wrap: break-word;
+    cursor: pointer;
+}
+.right-bottom-menu-two{
+    width: 234px;
+    height: 128px;
+    position: absolute;
+    top: 300px;
+    right: 164px;
+}

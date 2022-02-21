@@ -1,0 +1,114 @@
+.login{
+    background-color: rgb(224, 222, 222);
+    height:750px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.loginForm{
+    width: 560px;
+    height: 700px;
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+   
+}
+.loginForm h1{
+    color: #000;
+    font-size: 30px;
+}
+.signInGoogle{
+    width: 230px;
+    height: 50px;
+    background-color: #4285f4;
+    color: #fff;
+    margin-top: 130px;
+    margin-left: 25px;
+    cursor: pointer;
+   border: none;
+
+}
+.signInGoogle i{
+   width: 10px;
+   height: 10px;
+   background-image: url(../../../images/google-logo.png);
+   
+    
+}
+.loginForm>label{
+    margin: 10px 20px;
+    font-family: sans-serif;
+ 
+}
+label span{
+    display: inline-block;
+    margin-right: 2px;
+    color: red;
+}
+.logininput{
+    border:2px solid #eee;
+    border-radius: 5px;
+    margin: 0 20px;
+    padding: 10px;
+    font-size: 20px;
+    color: rgb(112, 107, 107);
+    cursor: pointer;
+
+}
+.forgetpass{
+    font-family: sans-serif;
+    color: rgb(156, 156, 156);
+    font-size: 14px;
+    margin: 10px 25px;
+}
+.forgetpass a{
+    color: rgb(66, 66, 209,0.8);
+    cursor: pointer;
+}
+.loginButton{
+    
+    height: 50px;
+    margin: 10px 15px;
+    background-color: hsl(217, 54%, 40%,0.6);
+    border-radius: 10px;
+    color: #eee;
+    font-size: 15pt; 
+    cursor: pointer;
+}
+.leftlastbutton{
+    width: 217px;
+    height: 72px;
+    margin-top: 30px;
+    margin-left: 45px;
+    display: inline;
+    border: none;
+    border-radius: 5px;
+    background-color:rgba(202, 37, 86,0.6);
+    color: rgb(224, 222, 222);
+    cursor: pointer;
+}
+.leftlastbutton a, .rightlastbutton a{
+    text-decoration: none;
+    color: inherit;
+    font-size: 14px;
+    font-family: sans-serif;
+    
+}
+.rightlastbutton{
+    display: inline;
+    width: 217px;
+    height: 72px;
+    border: none;
+    border-radius: 5px;
+    background-color:rgba(92, 207, 39, 0.8);
+    color: rgb(224, 222, 222);
+    padding: 10px;
+    margin-left: 35px;
+    cursor: pointer;
+   
+
+}

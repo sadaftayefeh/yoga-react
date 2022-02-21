@@ -1,0 +1,115 @@
+.Header{
+    height: 500px;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+   
+   
+    
+}
+.Header-image{
+  position: absolute;
+  background-image: url(../../public/yoga-images/pexels-kamaji-ogino-5093623.jpg) ;
+  background-repeat: no-repeat;
+  background-position-y: 76%;
+  background-size:100%;
+  filter: brightness(0.6) blur(3px);
+  height: 500px;
+    width: 100%;}
+ .Header .first-text{
+    font-family:Montserrat, sans-serif;
+    
+    line-height: 1.1;
+letter-spacing: -.05em;
+    padding: 40px;
+    font-weight: 700;
+    position: absolute;
+    font-size: 4.2428rem;
+    text-align: center;
+    color: rgb(230, 228, 228);
+    width: 800px;
+    }
+    .Header .second-text{
+        
+    font-family:Montserrat, sans-serif;
+    font-weight: 50;
+    position: absolute;
+    font-size: 1.1496rem;
+    line-height: 1.5;
+    word-wrap: break-word;
+    text-align: center;
+    color: rgb(206, 204, 204);
+    width: 700px;
+    top: 220px;
+    }
+    .Header-button-right{
+    position: absolute;
+    float: right;
+    font-weight: bold;
+    width: 150px;
+    height: 50px;
+    background-color: #3ebbc0;
+    top: 320px;
+    left: 770px;
+    font-size: 0.875rem;
+    border: none;
+   color: white;
+   cursor: pointer;
+    }
+    .Header-button-left{
+    position: absolute;
+    top: 320px;
+    font-weight: bold;
+    width: 150px;
+    height: 50px;
+    left: 600px;
+    background-color: transparent;
+    border: 2px solid white;
+   color: white;
+   cursor: pointer;
+   font-size: 0.875rem;
+    }
+    .Header-button-left a, .Header-button-right a{
+        text-decoration: none;
+    color: inherit;
+    }
+    .Header-button-right:hover{
+        transform: scale(1.1,1.1);
+        
+    }
+    .Header-button-left:hover{
+        transform: scale(1.1,1.1);
+        background-color: white;
+        color: #2b3a3b;}
+    .round-button{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: transparent;
+        border: 2px solid white;
+        position: absolute;
+        top: 420px;
+        cursor: pointer;
+        
+    }
+    
+    .round-button i{
+        position: absolute;
+        color: white;
+        top: 12px;
+        right: 12px;
+        
+    }
+    .round-button:hover{
+        background-color: white;
+        transform: scale(1.1,1.1);
+        color: turquoise;
+    }
+    .round-button i:hover{
+        color: turquoise;
+    }
+    
+    
+    

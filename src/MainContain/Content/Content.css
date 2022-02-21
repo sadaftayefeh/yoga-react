@@ -1,0 +1,15 @@
+
+.Content{
+    
+    display: grid; 
+    grid-template-columns:1fr 1fr 2fr ;
+    grid-auto-rows:380px;
+    grid-column-gap:1em;
+    grid-row-gap: 4em;
+}
+.image-content{
+    padding: 10px;
+   cursor: pointer;
+   width: 100%;
+   
+}
